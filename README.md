@@ -1,12 +1,20 @@
-# React + Vite
+# Password Generator in React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A tiny project built to explore key React hooks:
 
-Currently, two official plugins are available:
+- `useState` — to manage UI inputs like password length and options.
+- `useEffect` — to regenerate password automatically when inputs change.
+- `useCallback` — to memoize expensive functions like generator logic.
+- `useRef` — to copy password to clipboard by referencing the input.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Try it Live
+[Live Demo] https://password-generator-sigma-vert.vercel.app/
 
-## Expanding the ESLint configuration
+## Concepts Practiced
+- Controlled form inputs
+- DOM access with `useRef`
+- Clipboard API usage
+- TailwindCSS UI styling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Learnings
+This project helped me get comfortable with React’s core hook ecosystem while keeping the scope manageable.
